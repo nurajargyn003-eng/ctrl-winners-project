@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f2f4f7;
+}
+
+.menu {
+  padding: 16px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #eee;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.icon {
+  font-size: 20px;
+  width: 32px;
+}
+
+.text {
+  flex: 1;
+  font-size: 16px;
+}
+
+.arrow {
+  color: #bbb;
+  font-size: 20px;
+}
+
+.warning .icon {
+  color: #f5a623;
+}
+
+.item:hover {
+  background: #f9f9f9;
+}
